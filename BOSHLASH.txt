@@ -1,0 +1,32 @@
+GEOMFA — ISHGA TUSHIRISH
+
+1. ZIP arxivni oching.
+2. geomfa papkasini VS Code yoki boshqa muharrirda oching.
+3. Node.js 22.12 yoki undan yangi versiyasini o‘rnating.
+4. Terminalda:
+
+   npm install
+
+5. .env.example faylini .env nomi bilan nusxalang.
+6. Erkin AI suhbat uchun .env ichiga OPENAI_API_KEY va hisobingizda mavjud OPENAI_MODEL nomini kiriting.
+   Kalitsiz loyiha budjeti, maydoni va xarajatlar bo‘yicha mahalliy hisoblar ishlaydi.
+7. Terminalda:
+
+   npm run dev
+
+8. Terminalda ko‘rsatilgan Vite manzilini brauzerda oching.
+
+BUILD:
+   npm run build
+   npm start
+
+MUHIM:
+- Haqiqiy API kalitini boshqalarga yubormang. .env fayli .gitignore ichiga kiritilgan.
+- Ma’lumotlar localStorage da, ya’ni shu brauzerda saqlanadi. JSON eksport bilan nusxa oling.
+- Escrow — simulyatsiya, haqiqiy pul o‘tkazilmaydi.
+- Buyurtma tugmasi xat dasturini ochadi; yuborishni o‘sha dasturda tasdiqlaysiz.
+- Usta, material va narxlarni o‘zingiz kiritasiz.
+- 3D to‘g‘ri to‘rtburchak uy geometriyasini ko‘rsatadi; konstruktiv loyiha emas.
+- Bu kod autentifikatsiyalangan ko‘p foydalanuvchili SaaS emas. AI endpointini ommaga ochishdan oldin autentifikatsiya va foydalanuvchi kvotalari kerak.
+- Arxivda avval berilgan 8 asosiy fayl va yordamchi yo‘riqnomalar bor. Funksiyalar saqlangan, kod formatlashida satrlar ixchamlashtirilgan.
+- Paketlar o‘rnatilishi, frontend build va brauzer E2E testi arxiv tayyorlangan muhitda bajarilmagan.

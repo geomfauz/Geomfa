@@ -1,0 +1,6 @@
+server.js: syntax exit=0
+
+vite.config.js: syntax exit=0
+
+ZIP tarkibi va CRC tekshirildi.
+Frontend npm install, Vite build va brauzer E2E sinovlari bajarilmagan.

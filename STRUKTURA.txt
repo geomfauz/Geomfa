@@ -1,0 +1,14 @@
+geomfa/
+  package.json
+  index.html
+  vite.config.js
+  server.js
+  .env.example
+  .gitignore
+  src/
+    main.jsx
+    App.jsx
+    index.css
+  BOSHLASH.txt
+  STRUKTURA.txt
+  TEKSHIRUV.txt
