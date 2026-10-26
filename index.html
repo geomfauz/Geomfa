@@ -1,2 +1,72 @@
 <!doctype html>
 <html lang="uz"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="theme-color" content="#eff6ed"/><meta name="description" content="GEOMFA — qurilish, uy boshqaruvi, materiallar va hamkorlik platformasi."/><title>GEOMFA — Qurilishning yangi standarti</title></head><body><div id="root"></div><script type="module" src="/src/main.jsx"></script></body></html>
+<!doctype html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GEOMFA — Qurilishdan hayotgacha yagona ekotizim</title>
+    <style>
+      :root {
+        --primary: #10b981;
+        --primary-dark: #059669;
+        --bg-dark: #0f172a;
+        --card-bg: #1e293b;
+        --text-light: #f8fafc;
+        --text-muted: #94a3b8;
+      }
+      * { box-sizing: border-box; margin: 0; padding: 0; font-family: system-ui, -apple-system, sans-serif; }
+      body { background-color: var(--bg-dark); color: var(--text-light); line-height: 1.6; }
+      header { background: rgba(15, 23, 42, 0.9); backdrop-filter: blur(10px); position: fixed; top: 0; left: 0; right: 0; z-index: 100; border-bottom: 1px solid #334155; }
+      .nav-container { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; padding: 1rem 2rem; }
+      .logo { font-size: 1.5rem; font-weight: bold; color: var(--primary); display: flex; align-items: center; gap: 0.5rem; }
+      .logo span { background: var(--primary); color: #fff; padding: 0.2rem 0.6rem; border-radius: 6px; }
+      nav a { color: var(--text-muted); text-decoration: none; margin-left: 2rem; transition: color 0.2s; }
+      nav a:hover { color: var(--primary); }
+      .hero { padding: 8rem 2rem 4rem; max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center; }
+      @media (max-width: 768px) { .hero { grid-template-columns: 1fr; padding-top: 6rem; } }
+      .hero h1 { font-size: 3rem; font-weight: 800; margin-bottom: 1rem; color: #fff; }
+      .hero h1 span { color: var(--primary); }
+      .hero p { color: var(--text-muted); font-size: 1.1rem; margin-bottom: 2rem; }
+      .btn { display: inline-block; background: var(--primary); color: white; padding: 0.8rem 2rem; border-radius: 8px; font-weight: 600; text-decoration: none; transition: background 0.2s; box-shadow: 0 4px 14px rgba(16, 185, 129, 0.4); }
+      .btn:hover { background: var(--primary-dark); }
+      .card-preview { background: var(--card-bg); border: 1px solid #334155; border-radius: 16px; padding: 2rem; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5); }
+      .ai-box { margin-top: 1.5rem; background: #0f172a; border: 1px solid #10b981; border-radius: 12px; padding: 1rem; }
+      .ai-header { color: var(--primary); font-weight: bold; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem; }
+      footer { text-align: center; padding: 3rem; color: var(--text-muted); border-top: 1px solid #334155; margin-top: 4rem; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="nav-container">
+        <div class="logo"><span>G</span> GEOMFA</div>
+        <nav>
+          <a href="#xizmatlar">Xizmatlar</a>
+          <a href="#narxlar">Tariflar</a>
+          <a href="#aloqa">Aloqa</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div>
+        <h1>Uy — sizning <span>nazoratingizda.</span></h1>
+        <p>GEOMFA — qurilish, ta’mirlash, ustalar, materiallar, to‘lovlar va boshqaruvni bitta platformada birlashtiruvchi 7-in-1 yechim. Orzuingizdagi uyni bir necha bosqichda quring.</p>
+        <a href="#boshlash" class="btn">Boshlash →</a>
+      </div>
+      <div class="card-preview">
+        <h3 style="margin-bottom: 1rem;">📊 Loyiha ko‘rsatkichlari</h3>
+        <p style="color: var(--text-muted); margin-bottom: 1rem;">Byudjet rejasi: <b>0 UZS</b></p>
+        <p style="color: var(--text-muted); margin-bottom: 1.5rem;">Hudud paneli va materiallar katalogi faol.</p>
+        <div class="ai-box">
+          <div class="ai-header">✨ GEOMFA AI Yordamchi</div>
+          <p style="font-size: 0.9rem; color: var(--text-light);">Salom! Byudjet, xarajat, uy maydoni va katalog narxlarini kiritgan ma'lumotlardan hisoblayman.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2026 GEOMFA SaaS Platform. Barcha huquqlar himoyalangan.</p>
+    </footer>
+  </body>
+</html>
